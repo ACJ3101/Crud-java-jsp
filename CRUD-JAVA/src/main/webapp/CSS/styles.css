@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    width: auto; /* Ajusta el tamaño de la tabla */
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    display: block; /* Asegura que el enlace ocupe todo el ancho de su contenedor */
+    padding: 10px; /* Espaciado interno para el enlace */
+    border-radius: 5px; /* Esquinas redondeadas para los enlaces */
+}
+
+a:hover {
+    background-color: #f0f0f0; /* Cambia el fondo al pasar el mouse */
+}
+
+/* Form Styles */
+form {
+    width: 400px; /* Ancho fijo para el formulario */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"] {
+    width: 100%; /* Ajusta el ancho a 100% del contenedor padre */
+    padding: 8px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Asegura que el padding y borde no expandan el input */
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Mensaje de confirmación */
+p {
+    text-align: center;
+    font-size: 16px;
+    color: green;
+}
